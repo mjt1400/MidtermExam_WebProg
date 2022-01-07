@@ -1,9 +1,9 @@
 body{
-    background-image: linear-gradient(#FD297B, orange);
+    background-image: linear-gradient(#F9DBE1,white);
 }
 
 .header{
-    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(#FD297B, orange);
     width: 250px;
     position: absolute;
 }
@@ -97,4 +97,8 @@ body{
 .age {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  
+}
+
+.h1 {
+    text-align: center;
 }
