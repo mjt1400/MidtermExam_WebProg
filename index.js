@@ -29,7 +29,7 @@ function insert(){
    if(pcounter == -1 && counter == 0){
     document.getElementById("row"+counter).width = 50;
     document.getElementById("row"+counter).src = "images/fox.jpg";
-    document.getElementById("arow"+counter).innerHTML = "Fox";
+    document.getElementById("arow"+counter).innerHTML = "Red";
     pcounter = pcounter + 1;
    }
    else if (counter > 9){
