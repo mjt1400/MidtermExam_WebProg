@@ -1,5 +1,5 @@
 var images = ["images/lion.jpg", "images/lamb.jpg", "images/bird.jpg","images/giraffe.jpg","images/panda.jpg","images/pikachu.jpg","images/rabbit.jpg","images/snake.png","images/tiger.jpg"]
-var names = ["Lion", "Lamb", "Bird","Giraffe","Panda","Pikachu","Rabbit","Snake","Tiger"]
+var names = ["Max", "Baily", "Ziggy","Waffles","Gaffles","Pikachu","Mazda","Viper","Teeger"]
 var age = ["4 years old", "2 years old", "6 years old", "4 years old", "3 years old", "2 years old", "5 years old", "6 years old", "2 years old", ]
 var gender = ["Male" , "Female" , "Male" , "Female" , "Male" , "Female" , "Male" , "Female" , "Male"]
 let counter = -1;
@@ -15,7 +15,7 @@ function change(){
     console.log("row"+counter);
     if(counter >= 9){
         document.getElementById("profpics").src = "images/tiger.jpg";
-        document.getElementById("name").innerHTML = "Tiger";
+        document.getElementById("name").innerHTML = "Teeger";
         document.getElementById("age").innerHTML = "2 years old";
         document.getElementById("gender").innerHTML = "Male";
           alert("That is all thank you!!");
