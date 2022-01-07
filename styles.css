@@ -37,11 +37,13 @@ body{
 
 }
 .info{
-    position: absolute;
+    background-image: linear-gradient(#ebb6c1,rgb(240, 209, 209));
+    position: relative;
     margin-top: 300px;
-    margin-left: 20px;
+  
 }
 .pic{
+    background-image: linear-gradient(#e9acb8,rgb(240, 206, 206));
     border-radius: 25px;
     position: absolute;
     height: 200px;
@@ -80,3 +82,19 @@ body{
     border-radius: 15px;
     margin-left: 20px;
   }
+
+  .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+   
+}
+
+.gender {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.age {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
